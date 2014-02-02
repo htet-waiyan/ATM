@@ -1,0 +1,16 @@
+INDEX VERSION 1.122+D:\Sravani\ThumbDrive\Sem2\suriya\JavaCA-2013-06-19\JavaCA\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2525352351.index
+1819873153.index
+3315978910.index
+987422280.index
+1348719557.index
+3232783159.index
+796186825.index
+2380175872.index
+3538677892.index
+2569121684.index
+47809307.index
+1863681858.index
+313419021.index
+3733622255.index
+356324311.index

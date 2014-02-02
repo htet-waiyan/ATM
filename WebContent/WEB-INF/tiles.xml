@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+
+
+<tiles-definitions>
+    
+    <definition name="listacc" template="/template_customer.jsp">
+		<put-attribute name="header" value="/CustomerHeader.jsp" />
+		<put-attribute name="menu" value="/Customermenu.jsp" />
+		<put-attribute name="body" value="/listacc_body.jsp" />
+		<put-attribute name="footer" value="/defaultFooter.jsp" />
+	</definition>
+	
+    <definition name="confirm" template="/template_customer.jsp">
+		<put-attribute name="header" value="/CustomerHeader.jsp" />
+		<put-attribute name="menu" value="/Customermenu.jsp" />
+		<put-attribute name="body" value="/confirm_body.jsp" />
+		<put-attribute name="footer" value="/defaultFooter.jsp" />
+	</definition>
+	
+    <definition name="deposit" template="/template_customer.jsp">
+		<put-attribute name="header" value="/CustomerHeader.jsp" />
+		<put-attribute name="menu" value="/Customermenu.jsp" />
+		<put-attribute name="body" value="/deposit_body.jsp" />
+		<put-attribute name="footer" value="/defaultFooter.jsp" />
+	</definition>
+	
+     <definition name="message" template="/template_customer.jsp">
+		<put-attribute name="header" value="/CustomerHeader.jsp" />
+		<put-attribute name="menu" value="/Customermenu.jsp" />
+		<put-attribute name="body" value="/message_body.jsp" />
+		<put-attribute name="footer" value="/defaultFooter.jsp" />
+	</definition>
+	
+     <definition name="withdraw" template="/template_customer.jsp">
+		<put-attribute name="header" value="/CustomerHeader.jsp" />
+		<put-attribute name="menu" value="/Customermenu.jsp" />
+		<put-attribute name="body" value="/withdraw_body.jsp" />
+		<put-attribute name="footer" value="/defaultFooter.jsp" />
+	</definition>
+	
+     <definition name="Transfer" template="/template_customer.jsp">
+		<put-attribute name="header" value="/CustomerHeader.jsp" />
+		<put-attribute name="menu" value="/Customermenu.jsp" />
+		<put-attribute name="body" value="/transfer_body.jsp" />
+		<put-attribute name="footer" value="/defaultFooter.jsp" />
+	</definition>
+	
+      <definition name="TransactionHistory" template="/template_customer.jsp">
+		<put-attribute name="header" value="/CustomerHeader.jsp" />
+		<put-attribute name="menu" value="/Customermenu.jsp" />
+		<put-attribute name="body" value="/TransactionHistory_body.jsp" />
+		<put-attribute name="footer" value="/defaultFooter.jsp" />
+	</definition>
+     
+
+<definition name="login" template="/template_customer.jsp">
+		<put-attribute name="header" value="/CustomerHeader.jsp" />
+		<put-attribute name="menu" value="/loginmenu.jsp" />
+		<put-attribute name="body" value="/login_body.jsp" />
+		<put-attribute name="footer" value="/defaultFooter.jsp" />
+	</definition>
+	
+<definition name="CustomerHomepage" template="/template_customer.jsp">
+		<put-attribute name="header" value="/CustomerHeader.jsp" />
+		<put-attribute name="menu" value="/Customermenu.jsp" />
+		<put-attribute name="body" value="/CustomerHomepage_body.jsp" />
+		<put-attribute name="footer" value="/defaultFooter.jsp" />
+	</definition>
+	
+	<definition name="bankbranch" template="/banker.jsp">
+		<put-attribute name="header" value="/defaultHeader.jsp" />
+		<put-attribute name="menu" value="/defaultMenu.jsp" />
+		<put-attribute name="body" value="/bankbranch_body.jsp" />
+		<put-attribute name="footer" value="/bankerfooter.jsp" />
+	</definition>
+	
+	<definition name="searchbranch" template="/banker.jsp">
+		<put-attribute name="header" value="/defaultHeader.jsp" />
+		<put-attribute name="menu" value="/defaultMenu.jsp" />
+		<put-attribute name="body" value="/searchbranch_body.jsp" />
+		<put-attribute name="footer" value="/bankerfooter.jsp" />
+	</definition>
+	
+	<definition name="editbranch" template="/banker.jsp">
+		<put-attribute name="header" value="/defaultHeader.jsp" />
+		<put-attribute name="menu" value="/defaultMenu.jsp" />
+		<put-attribute name="body" value="/editbranch_body.jsp" />
+		<put-attribute name="footer" value="/bankerfooter.jsp" />
+	</definition>
+	<definition name="editacc" template="/banker.jsp">
+		<put-attribute name="header" value="/defaultHeader.jsp" />
+		<put-attribute name="menu" value="/defaultMenu.jsp" />
+		<put-attribute name="body" value="/editacc_body.jsp" />
+		<put-attribute name="footer" value="/bankerfooter.jsp" />
+	</definition>
+	<definition name="txnhistory" template="/banker.jsp">
+		<put-attribute name="header" value="/defaultHeader.jsp" />
+		<put-attribute name="menu" value="/defaultMenu.jsp" />
+		<put-attribute name="body" value="/txnhistory_body.jsp" />
+		<put-attribute name="footer" value="/bankerfooter.jsp" />
+	</definition>
+	
+	<definition name="custdetail" template="/banker.jsp">
+	    <put-attribute name="header" value="/defaultHeader.jsp" />
+		<put-attribute name="menu" value="/defaultMenu.jsp" />
+		<put-attribute name="body" value="/custdetail_body.jsp" />
+		<put-attribute name="footer" value="/bankerfooter.jsp" />
+	</definition>
+	
+	<definition name="createacc" template="/banker.jsp">
+	    <put-attribute name="header" value="/defaultHeader.jsp" />
+		<put-attribute name="menu" value="/defaultMenu.jsp" />
+		<put-attribute name="body" value="/create_body.jsp" />
+		<put-attribute name="footer" value="/bankerfooter.jsp" />
+	</definition>
+	
+	<definition name="register" template="/banker.jsp">
+		<put-attribute name="header" value="/defaultHeader.jsp" />
+		<put-attribute name="menu" value="/defaultMenu.jsp" />
+		<put-attribute name="body" value="/register_body.jsp" />
+		<put-attribute name="footer" value="/bankerfooter.jsp" />
+	</definition>
+
+	<definition name="home" template="/template.jsp">
+		<put-attribute name="header" value="/defaultHeader.jsp" />
+		<put-attribute name="menu" value="/defaultMenu.jsp" />
+		<put-attribute name="body" value="/home_body.jsp" />
+		<put-attribute name="footer" value="/bankerfooter.jsp" />
+	</definition>
+
+	<definition name="UpdateInfo" template="/template2.jsp">
+		<put-attribute name="header" value="/defaultHeader.jsp" />
+		<put-attribute name="menu" value="/defaultMenu.jsp" />
+		<put-attribute name="body1" value="/CustomInfo_body.jsp" />
+		<put-attribute name="body2" value="/BankAccountInfo_body.jsp" />
+		<put-attribute name="footer" value="/UpdateInfo_footer.jsp" />
+	</definition>
+
+	<definition name="BankBranch" template="/template.jsp">
+		<put-attribute name="header" value="/defaultHeader.jsp" />
+		<put-attribute name="menu" value="/defaultMenu.jsp" />
+		<put-attribute name="body" value="/BankBranch_body.jsp" />
+		<put-attribute name="footer" value="/bankerfooter.jsp" />
+	</definition>
+</tiles-definitions>
